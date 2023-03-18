@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "89888aee-215b-4447-8540-f007ce6bef7d",
+		"name": "Gestion carros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920062"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "marca",
+							"value": "Renault",
+							"type": "text"
+						},
+						{
+							"key": "modelo",
+							"value": "Captur",
+							"type": "text"
+						},
+						{
+							"key": "anio",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "color_vehiculo",
+							"value": "Azul Celeste",
+							"type": "text"
+						},
+						{
+							"key": "tipo_vehiculo",
+							"value": "Camioneta",
+							"type": "text"
+						},
+						{
+							"key": "placa",
+							"value": "ABC123",
+							"type": "text"
+						},
+						{
+							"key": "cantidad_pasajeros",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "kilometraje",
+							"value": "1350",
+							"type": "text"
+						},
+						{
+							"key": "aire_acondicionado",
+							"value": "Si",
+							"type": "text"
+						},
+						{
+							"key": "valor_x_dia",
+							"value": "30",
+							"type": "text"
+						},
+						{
+							"key": "contrato",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/carro",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"carro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
